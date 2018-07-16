@@ -12,6 +12,7 @@
     tools:context=".activities.SearchActivity"
     tools:showIn="@layout/activity_search">
 
+
     <EditText
         android:id="@+id/etQuery"
         android:layout_width="wrap_content"
@@ -40,4 +41,5 @@
         android:onClick="onArticleSearch"
         android:text="@string/search"
         android:visibility="visible" />
+
 </RelativeLayout>
